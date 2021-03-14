@@ -99,8 +99,6 @@ https://api.dictionaryapi.dev/api/v2/entries/fr/bonjour
 
 List of languages supported can be found [here](https://dictionaryapi.dev/languageCode.txt) for your reference.
 
-### Regarding V1 Version
-The API earlier use to send response as shown below, but this structure of response was found out to be difficult to work with (you can take a look at these tickets [#32](https://github.com/meetDeveloper/googleDictionaryAPI/issues/32) and [#4](https://github.com/meetDeveloper/googleDictionaryAPI/issues/4)), based on feedback in these tickets I have updated the API to _v2_ version. _v2_ version is available for all languages supported. That said, _v1_ version will always be supported for backward compatibility.
 
 ```json
 [
@@ -138,33 +136,13 @@ The API earlier use to send response as shown below, but this structure of respo
 
 | Location | Endpoint |
 | :-- | :-- |
-| Root path | `https://api.dictionaryapi.dev/api/<--version-->`|
 
 ### HTTP request and query methods
 
 | Method | Endpoint | Description | Examples |
 | :-- | :-- | :-- | :-- |
-| `GET` | `/entries/<LANGUAGE>/<YOUR_WORD>`| Retrieves the Google Dictionary definition of the given word that has been entered instead of `<YOUR_WORD>` in the [provided language](https://dictionaryapi.dev/languageCode.txt) `<LANGUAGE>`. | [`/api/v2/entries/fr/bonjour`](https://api.dictionaryapi.dev/api/v2/entries/fr/bonjour) |
 
 ## Future plans  
 
 You can see existing and add new feature proposals on the projects GitHub page.
 Pull requests are welcome!
-
-## Support  
-
-If you need any assistance or find any bugs, feel free to contact me directly via [email](mailto:srjjain1996@gmail.com) or [create a new issue](https://github.com/meetDeveloper/googleDictionaryAPI/issues) on the GitHub page.
-
-## Related Projects
-
-### [Dictionary Anywhere](https://github.com/meetDeveloper/Dictionary-Anywhere)
-
-The **Dictionary Anywhere** extension helps you stay focused on what you are reading by eliminating the need to search for meaning, 
-Double-clicking any word will view its definition in a small pop-up bubble. 
-Now you never have to leave what you are reading to search for the meaning of the words you don't yet know.
-
-Extension is available for [Google Chrome](https://chrome.google.com/webstore/detail/dictionary-anywhere/hcepmnlphdfefjddkgkblcjkbpbpemac/) and [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/dictionary-anyvhere).
-##### Enjoy Reading Uninterrupted!!!
-=======
-# My-Dictionary-API
->>>>>>> 6872b400c6d4cecd7c6ec996eb15db36fa266aa6
